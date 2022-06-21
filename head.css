@@ -1,0 +1,16 @@
+.head {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.head a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 5px 5px ;
+    color: black;
+    text-shadow:  2px 2px 4px  #2ff4e7;
+    font-size: 130%;
+}
+
+  

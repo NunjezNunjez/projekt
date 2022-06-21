@@ -1,0 +1,33 @@
+/* Pozicija */
+.albumi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+ }
+
+.albumi p{
+    text-align: center;
+}
+
+.albumi td{ /* Pozicija td*/
+    padding: 10px 5px 10px 5px;
+}
+
+.albumi img:hover{
+    transition-duration: 0.5s; 
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.albumi img {
+    transition: .5s;
+}
+
+td {
+    display: inline-block;
+}
+
+

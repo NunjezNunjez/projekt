@@ -1,0 +1,120 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/409/192/original/abstract-geometric-banner-free-vector.jpg");
+  }
+
+  /* Pozicija ush gumbov naenkrat */
+.center {
+    text-align: center;
+    align-items: center;
+    justify-content: center; /* Lastnost uporabi prostor ki ga elementi ne uporabijo do konca */
+    padding-top: 120px;
+    padding-right: 30px;
+    
+
+}
+/*  Izgled  uporabnika  za Button1 in button2----------------------------------- */
+.center .button1{
+    background: aqua;
+    background-image: linear-gradient(315deg,rgb(14, 230, 219) 0%,#4184e7 74%);
+    width: 300px;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50px;
+    box-shadow: 0 0 9px 0 rgb(0, 0, 0,0.3);
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+    margin-right: 50px;
+}
+.center button:hover{
+    transition-duration: 0.5s; 
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.center .button2{
+    background: aqua;
+    background-image: linear-gradient(315deg,rgb(14, 230, 219) 0%,#4184e7 74%);
+    width: 300px;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50px;
+    box-shadow: 0 0 9px 0 rgb(0, 0, 0,0.3);
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+    margin-left: 50px;
+}
+/* --------------------------------------------------------- */
+
+
+
+/* Ediranje gumbov */
+.center button{
+    background: aqua;
+    background-image: linear-gradient(315deg,rgb(14, 230, 219) 0%,#4184e7 74%);
+    width: 300px;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50px;
+    box-shadow: 0 0 9px 0 rgb(0, 0, 0,0.3);
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+    margin-left: 50px;
+}
+
+
+
+.IzbiraWrap {
+   width: 100%;
+   margin: 0px 100px 50px 0px; 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   bottom: 50px;
+   
+}
+
+/* Pozicija za  dodaj ------------------------------------*/
+#dodaj_pos{                     
+    text-align: center;
+    width: 100%;
+    margin: 50px 100px 0px 0px;
+}
+#dodaj_pos a {
+    text-decoration: none;
+}
+
+
+
+
+/* Izgled Button za Delete oba------------------------------------- */
+#dodaj_pos2  button{
+    background: aqua;
+    background-image: linear-gradient(315deg,rgb(14, 230, 219) 0%,#4184e7 74%);
+    width: 300px;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50px;
+    box-shadow: 0 0 9px 0 rgb(0, 0, 0,0.3);
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+#dodaj_pos2 button:hover{
+    transition-duration: 0.5s; 
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* ----------------------------- */
+
+/* Pozicija za  izbrisi -------------------------------------*/
+#dodaj_pos2{
+    text-align: center;
+    width: 100%;
+    margin: 0px 100px 0px 0px;
+}
+#dodaj_pos2 a {
+    text-decoration: none;
+}
